@@ -48,7 +48,7 @@ error:
 ```
 
 For this case, the user can always just use the more verbose `numeric_limits` minimum value: 
-```
+```cpp
    constexpr auto x = std::numeric_limits<i8>::min();
 ```
 
@@ -57,7 +57,7 @@ Code Design Notes
 You can also implement user-defined integer literals that require no parsing with the much 
 more simplistic operator form: 
 ```cpp
-    constexpr u8 operator"" _u32(ulonglong v)
+    constexpr uint32_t operator"" _u32(ulonglong v)
 ```
 But if you use that form you can't trigger compile time `static_assert` failures without 
 explicit use of the `constexpr` keyword in the value declarations. 
