@@ -1,12 +1,12 @@
-Overview / Motivation
----------------------
-This is an implementation to support fixed-size integer literal suffixes.
+Overview
+--------
+This is an implementation to support C++ user-defined fixed with integer literal 
+suffixes. 
 
 The standard integer literal suffixes like `u`, `ul`, and `ull` suffer from
 portability issues similar to C++ native types like `int`, `long`, and `long long`.
-While `<cstdint>` provides macros like `UINT64_C(<int-literal>)` to help, no one
-wants to use macros if they don't have to, and they are just not elegant.
-Per the standard, all suffixes begin with an underscore.
+While `<cstdint>` provides helpful macros like `UINT64_C(<int-literal>)`, no one
+wants to use macros if they don't have to, and they just aren't elegant.
 
 Implemented suffixes include `u8`, `u16`, `u32`, `u64`, `z`, `i8`, `i16`, `i32`, and `i64`.
 The `z` type is `size_t` per the `printf` conversion char for size_t as described in
