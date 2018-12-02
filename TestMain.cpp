@@ -128,4 +128,6 @@ int main(int argc, char* argv[]) {
     static_assert(0xffeeffdd0012345_u64 == UINT64_C(0xffeeffdd0012345), "xxx");
     static_assert(07766554433_u32 == UINT32_C(07766554433), "xxx");
   }
+
+  return 0;
 }
