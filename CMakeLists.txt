@@ -4,7 +4,7 @@ project(fixed-integer-literals)
 set(CMAKE_CXX_EXTENSIONS Off)
 
 set(Sources TestMain.cpp)
-set(Headers SizedIntLiterals.h)
+set(Headers FixedWidthIntLiterals.h)
 
 add_executable(${PROJECT_NAME} ${Sources} ${Headers})
 target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_11)

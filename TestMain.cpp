@@ -17,13 +17,13 @@
 /// SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ////////////////////////////////////////////////////////////////////////////////
 
-#ifndef SCW_SIZED_INT_LITERALS_NAMESPACE
-#define SCW_SIZED_INT_LITERALS_NAMESPACE scw
+#ifndef SCW_FIXEDWIDTH_INT_LITERALS_NAMESPACE
+#define SCW_FIXEDWIDTH_INT_LITERALS_NAMESPACE scw
 #endif
 
-#include "SizedIntLiterals.h"
+#include "FixedWidthIntLiterals.h"
 
-using namespace SCW_SIZED_INT_LITERALS_NAMESPACE::intliterals;
+using namespace SCW_FIXEDWIDTH_INT_LITERALS_NAMESPACE::intliterals;
 
 int main(int argc, char* argv[]) {
 

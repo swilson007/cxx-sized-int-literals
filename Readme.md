@@ -1,7 +1,7 @@
 Overview
 --------
-This is an implementation to support C++ user-defined fixed with integer literal 
-suffixes. 
+This is an implementation to support C++ user-defined fixed width integer literal 
+suffixes.
 
 The standard integer literal suffixes like `u`, `ul`, and `ull` suffer from
 portability issues similar to C++ native types like `int`, `long`, and `long long`.
@@ -20,7 +20,7 @@ all suffixes begin with an underscore.
 Examples
 --------
 ```cpp
-#include "SizedIntLiterals.h"
+#include "FixedWidthIntLiterals.h"
 using namespace scw::intliterals
 auto ux = 100_u32;  // ux will be uint32_t
 auto uy = 100_u64;  // uy will be uint64_t
