@@ -1,6 +1,6 @@
 Code
 ----
-https://github.com/swilson007/cxx-sized-int-literals
+<https://github.com/swilson007/cxx-sized-int-literals>
 
 Overview
 --------
