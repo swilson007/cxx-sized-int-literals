@@ -19,7 +19,7 @@ https://en.cppreference.com/w/cpp/io/c/fprintf
 The implementation has full support for binary, octal, decimal, and hexadecimal.
 Invalid literal values for their type will generate a compiler error via `static_assert()`
 and do not require use of the `constexpr` keyword to enforce that. Per the standard,
-all suffixes begin with an underscore.
+all suffixes begin with an underscore, but that's easy to change when living dangerously.
 
 Examples
 --------
@@ -69,3 +69,6 @@ explicit use of the `constexpr` keyword in the value declarations.
 Parsing happens in opposite order in terms of how the functions are ordered within
 the file. Thus, examine the code by starting at the bottom and working up the file.
 
+Licensing
+---------
+MIT Licensing because freedom should mean freedom. 
