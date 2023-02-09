@@ -150,7 +150,7 @@ SCW_FIXEDWIDTH_DEFINE_CHECK_VALID_FUNC(uint32_t, "uint32 literal out of range.")
 SCW_FIXEDWIDTH_DEFINE_CHECK_VALID_FUNC(uint64_t, "uint64 literal can't be out of range!");
 SCW_FIXEDWIDTH_DEFINE_CHECK_VALID_FUNC(int8_t, "int8 literal out of range. Note that the value of numeric_limits<int8>::min() is not supported");
 SCW_FIXEDWIDTH_DEFINE_CHECK_VALID_FUNC(int16_t, "int16 literal out of range. Note that the value of numeric_limits<int16>::min() is not supported");
-SCW_FIXEDWIDTH_DEFINE_CHECK_VALID_FUNC(int32_t, "int8 literal out of range. Note that the value of numeric_limits<int32>::min() is not supported");
+SCW_FIXEDWIDTH_DEFINE_CHECK_VALID_FUNC(int32_t, "int32 literal out of range. Note that the value of numeric_limits<int32>::min() is not supported");
 SCW_FIXEDWIDTH_DEFINE_CHECK_VALID_FUNC(int64_t, "int64 literal out of range. Note that the value of numeric_limits<int64>::min() is not supported");
 SCW_FIXEDWIDTH_DEFINE_CHECK_VALID_FUNC(size_t, "size_t literal out of range.");
 // clang-format on
